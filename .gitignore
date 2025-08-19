@@ -1,0 +1,11 @@
+# Ignore all files
+*.json
+*.rar
+*.pbix
+*.xlsx
+*.csv
+
+
+# Except for the specific files
+!Prueba PB David Camelo.ipynb
+!Prueba PB David Camelo.pdf
