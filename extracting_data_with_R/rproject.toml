@@ -1,0 +1,37 @@
+# this config was migrated from renv.lock on 2026-01-19
+[project]
+name = "extracting_data_with_R"
+r_version = "4.5"
+
+repositories = [
+    { alias = "CRAN", url = "https://cran.rstudio.com/"}
+]
+
+dependencies = [
+    { name = "R6", repository = "CRAN" },
+    { name = "askpass", repository = "CRAN" },
+    { name = "bit", repository = "CRAN" },
+    { name = "bit64", repository = "CRAN" },
+    { name = "cellranger", repository = "CRAN" },
+    { name = "cli", repository = "CRAN" },
+    { name = "clipr", repository = "CRAN" },
+    { name = "cpp11", repository = "CRAN" },
+    { name = "crayon", repository = "CRAN" },
+    { name = "dplyr", repository = "CRAN" },
+    { name = "generics", repository = "CRAN" },
+    { name = "glue", repository = "CRAN" },
+    { name = "httr", repository = "CRAN" },
+    { name = "jsonlite", repository = "CRAN" },
+    { name = "lubridate", repository = "CRAN" },
+    { name = "mime", repository = "CRAN" },
+    { name = "pkgconfig", repository = "CRAN" },
+    { name = "prettyunits", repository = "CRAN" },
+    { name = "progress", repository = "CRAN" },
+    { name = "readxl", repository = "CRAN" },
+    { name = "rematch", repository = "CRAN" },
+    { name = "sys", repository = "CRAN" },
+    { name = "tidyselect", repository = "CRAN" },
+    { name = "timechange", repository = "CRAN" },
+    { name = "tzdb", repository = "CRAN" },
+    { name = "withr", repository = "CRAN" }
+]
