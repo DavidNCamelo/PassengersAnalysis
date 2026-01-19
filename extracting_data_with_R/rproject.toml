@@ -33,5 +33,7 @@ dependencies = [
     { name = "tidyselect", repository = "CRAN" },
     { name = "timechange", repository = "CRAN" },
     { name = "tzdb", repository = "CRAN" },
-    { name = "withr", repository = "CRAN" }
+    { name = "withr", repository = "CRAN" },
+    "readr",
+    "purrr",
 ]
